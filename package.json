@@ -11,7 +11,9 @@
   "author": "Basil",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "demo": "npx playwright test tests/demo/mytest.spec.ts --headed"
+  },
   "devDependencies": {
     "@playwright/test": "^1.64.0",
     "@types/node": "^26.6.5"
